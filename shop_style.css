@@ -1,0 +1,105 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    background: url(bike.webp);
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+
+header {
+    background-color: black;
+    border-radius: 15px;
+}
+
+.left {
+    display: inline-block;
+    position: absolute;
+    left: 60px;
+    top: 27px;
+}
+
+.left img {
+    width: 50px;
+}
+
+.mid {
+    display: block;
+    width: 26%;
+    margin: 29px auto;
+    /* height: 50px;
+    width: 20px; */
+    /* background-color: black;
+    border-radius: 2px; */
+
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 15px;
+}
+
+.navbar li a {
+    color: rgb(7, 81, 243);
+    text-decoration: none;
+    padding: 14px;
+}
+
+.navbar li a:hover {
+    text-decoration: underline;
+    color: blanchedalmond;
+}
+
+.right {
+    position: absolute;
+    right: 34px;
+    top: 43px;
+    display: inline-block;
+}
+
+.btn {
+    margin: 0px 9px;
+    background-color: black;
+    color: white;
+    padding: 4px 14px;
+    border: 2px solid red;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: seashell;
+}
+
+.container {
+    border: 2px solide red;
+    margin: 106px 80px;
+    padding: 75px;
+    width: 33%;
+    border-radius: 18px;
+}
+
+.classgroup input {
+    text-align: center;
+    display: block;
+    width: 508px;
+    padding: 1px;
+    border: 2px solid red;
+    margin: 11px auto;
+    font-size: 25px;
+    border-radius: 8px;
+}
+
+.container h1 {
+    text-align: center;
+}
+
+.container button {
+    display: block;
+    width: 74%;
+    margin: 20px auto;
+}

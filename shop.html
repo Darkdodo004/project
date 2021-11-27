@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>shop</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0px;
+            padding: 0px;
+            background: url(bike.webp);
+            background-repeat:no-repeat;
+            background-size: cover;
+        }
+
+        header {
+            background-color: black;
+            border-radius: 15px;
+        }
+
+        .left {
+            display: inline-block;
+            position: absolute;
+            left: 60px;
+            top: 27px;
+        }
+
+        .left img {
+            width: 50px;
+        }
+
+        .mid {
+            display: block;
+            width: 26%;
+            margin: 29px auto;
+            /* height: 50px;
+            width: 20px; */
+            /* background-color: black;
+            border-radius: 2px; */
+
+        }
+
+        .navbar {
+            display: inline-block;
+        }
+
+        .navbar li {
+            display: inline-block;
+            font-size: 15px;
+        }
+
+        .navbar li a {
+            color: rgb(7, 81, 243);
+            text-decoration: none;
+            padding: 14px;
+        }
+
+        .navbar li a:hover {
+            text-decoration: underline;
+            color: blanchedalmond;
+        }
+
+        .right {
+            position: absolute;
+            right: 34px;
+            top: 43px;
+            display: inline-block;
+        }
+
+        .btn {
+            margin: 0px 9px;
+            background-color: black;
+            color: white;
+            padding: 4px 14px;
+            border: 2px solid black;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            background-color: seashell;
+            color: red;
+        }
+
+        .container {
+            border: 2px solide red;
+            margin: 106px 80px;
+            padding: 75px;
+            width: 33%;
+            border-radius: 18px;
+        }
+
+        .classgroup input {
+            text-align: center;
+            display: block;
+            width: 400px;
+            height: 20px;
+            padding: 1px;
+            border: 1px solid black;
+            margin: 11px auto;
+            font-size: 11px;
+            border-radius: 8px;
+        }
+
+        .container h1 {
+            text-align: center;
+        }
+
+        .container button {
+            display: block;
+            width: 70px;
+            margin: 20px auto;
+        }
+        .classgroup1 input {
+            text-align: center;
+            display: block;
+            width: 500px;
+            height: 100px;
+            padding: 1px;
+            border: 1px solid black;
+            margin: 11px auto;
+            font-size: 11px;
+            border-radius: 8px;
+        }
+    
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="download.jpg" alt="">
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="home.htm">home</a></li>
+                <li><a href="about_us.htm">about us</a></li>
+                <li><a href="shop.html">shop</a></li>
+                <li><a href="contact.html">contact</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn">call us</button>
+            <button class="btn">email us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1> fill the form for booking</h1>
+        <form action="noaction.php">
+            <div class="classgroup">
+                <input type="text" name="name" placeholder="enter your name">
+            </div>
+            <div class="classgroup1"><input type="text" name="" placeholder="enter full addresss" ></div>
+                <div class="classgroup"><input type="text" name="" placeholder="enter your phone no."> </div>
+                    <div class="classgroup"><input type="text" name="" placeholder="enter your email"> </div>
+                        <div class="classgroup"><input type="text" name="" placeholder="enter the model"> </div>
+                            <div class="classgroup"><input type="text" name="" placeholder="place to deliver"> </div>
+                                <div><button class="btn">submit</button></div>
+
+        </form>
+    </div>
+</body>
+
+</html>
